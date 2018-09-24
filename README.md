@@ -18,8 +18,8 @@ Se upp med PHP, många av resurserna på nätet är utdaterade och många exempe
 
 #### YouTube
 
-[_TraversyMedia_: __PHP Front To Back__](https://www.youtube.com/watch?v=oJbfyzaA2QA)
-[_CodeCourse_: __PHP Basics Playlist__](https://www.youtube.com/playlist?list=PLfdtiltiRHWHjTPiFDRdTOPtSyYfz3iLW)
+* [_TraversyMedia_: __PHP Front To Back__](https://www.youtube.com/watch?v=oJbfyzaA2QA)
+* [_CodeCourse_: __PHP Basics Playlist__](https://www.youtube.com/playlist?list=PLfdtiltiRHWHjTPiFDRdTOPtSyYfz3iLW)
 
 ### MySQL
 
