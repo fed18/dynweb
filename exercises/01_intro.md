@@ -33,7 +33,7 @@ Det mesta i vår `index.php` är `html`. Dock varje gång du ska använda `php` 
 1.
 ```php
 <?php
-    echo '<p> Programming!!</p>';
+    echo "<p> Programming!!</p>";
 ?>
 ```
 
@@ -76,7 +76,7 @@ echo "!</h1>";
 <?php
 
 $firstName = "Steffe";
-$lastName = "Steffensdottir"
+$lastName = "Steffensdottir";
 echo '<h1> Hello' . $firstName . ' ' . $lastName . '!</h1>';
 
 ?>
