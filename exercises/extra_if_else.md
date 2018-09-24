@@ -10,8 +10,8 @@ if($name != "Jesper"){
 }
 
 //Opposite of false
-if(!$fed8){
-    echo "Hey reverse girl!";
+if(!$fed18){
+    echo "Hey reverse!";
 }
 ```
 
