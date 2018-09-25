@@ -152,7 +152,7 @@ Nu ska du loopa igenom arrayen och skriva ut varje värde i arrayen. Tänk på a
 
 Använd samma array som tidigare. Nu ska du dock loopa igenom arrayen och multiplicera varje värde i arrayen med summan av det föregående värdet. D.v.s, 1 * 2 * 3.. etc.
 
-Spara värdet i en `$sum` och console.logga sedan ut denna variabel efter att loopen har körts klart
+Spara värdet i en `$sum` och echoa sedan ut denna variabel efter att loopen har körts klart
 
 5.
 
@@ -162,7 +162,7 @@ Du ska utgå från följande array:
 $ok_array = ["fine", "FINE", "good", "what is this stuff?", "sweet", "i don't even live here"];
 ```
 
-Du ska loopa igenom arrayen och console.logga dess värden. Dock ska din loop inte skriva ut strängar som är längre än 5 tecken. `"fine"`, `"FINE"`, `"good"` och `"sweet"` ska alltså skrivas ut men inte `"whatisthisstuff?"` och `"i don't even live here"`. 
+Du ska loopa igenom arrayen och echoa dess värden. Dock ska din loop inte skriva ut strängar som är längre än 5 tecken. `"fine"`, `"FINE"`, `"good"` och `"sweet"` ska alltså skrivas ut men inte `"whatisthisstuff?"` och `"i don't even live here"`. 
 
 För att komma åt hur lång en sträng är kan man använda `strlen()`, en inbyggd funktion: [**`strlen()`** @ php.net](http://php.net/manual/en/function.strlen.php)
 
