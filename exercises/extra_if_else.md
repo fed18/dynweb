@@ -122,7 +122,7 @@ if($clown){
 if( $kaffe < 5 || $finska_pinnar < 5 ){
     echo "Dåligt kalas!";
 //else we continue with our checks
-} else if( ($kaffe/$finska_pinnar) >= 2 || ($kaffe/$finska_pinnar) >= 2){
+} else if( ($kaffe/$finska_pinnar) >= 2 || ($finska_pinnar/$kaffe) >= 2){
     echo "Nannas super party!";
 } else{
     echo "Bra kalas!";
