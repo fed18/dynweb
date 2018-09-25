@@ -52,3 +52,9 @@
 [.background-color: #FFFFFF]
 
 ![inline](https://i.imgur.com/cCzYUs4.png)
+
+--- 
+
+[.background-color: #FFFFFF]
+
+![inline](https://i.imgur.com/H4XX224.png)
