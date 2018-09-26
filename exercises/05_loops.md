@@ -278,7 +278,7 @@ echo $your_array[4]; //Last index is 4, but length is 5
 2.
 ```php
 $your_array = [23, 45, 54, 12, 77];
-$your_array[0] = 1;
+$your_array[4] = 1;
 echo $your_array[4];
 ```
 
