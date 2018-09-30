@@ -56,7 +56,7 @@ Se upp med PHP, många av resurserna på nätet är utdaterade och många exempe
 | 10    | **42**    | 15/10   | MySQL + PDO Intro                                                               |
 | 11    | 42        | 19/10   | Versionshantering/`git`, att arbeta med kod i team                              |
 | 12    | **43**    | 22/10   | MySQL + PDO + PHP                                                               |
-| 13    | 43        | 26/10   | Eget arbete, **Inlämning av examinerande mindre uppgift: **CRUD mot Databas**   |                                                               |
+| 13    | 43        | 26/10   | Eget arbete, **Inlämning av examinerande mindre uppgift: _CRUD mot Databas_**   |                                                               |
 | 14    | **44**    | 29/10   | Användarhantering, autentisering, cookies & sessions                            |
 | 15    | 44        | 30/10   | Objektorienterad PHP                                                            |
 | 16    | 44        | 2/11    | Objektorienterad PHP                                                            |
