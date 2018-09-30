@@ -162,8 +162,6 @@ for ($monthNumber; $monthNumber <= $monthsToPrint; $monthNumber++){
 }
 ```
 
-<summary></summary>
-
 ### Multiplikationstabellen
 
 ```php

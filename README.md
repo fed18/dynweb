@@ -53,10 +53,17 @@ Se upp med PHP, många av resurserna på nätet är utdaterade och många exempe
 | 7     | **41**    | 8/10    | Sessions & `GET`/ `POST` /                                                      |
 | 8     | 41        | 9/10    | Kodstruktur: `include`/`require`, stilguider och Best Practice                  |
 | 9     | 41        | 12/10   | Eget arbete, **Inlämning av examinerande mindre uppgift: _Formulärhantering_**  |
-| 10    | **42**    | 15/10   | Versionshantering/`git`                                                         |   
-| 11    | 42        | 16/10   | Versionshantering/`git` + GitHub                                                |
-| 12    | 42        | 19/10   | MySQL + PDO Intro                                                               |
-| 13    | **43**    | 22/10   | MySQL + PDO + PHP                                                               |
-| 14    | 43        | 23/10   | MySQL + PDO + PHP                                                               |
-| 15    | 43        | 26/10   | Eget arbete, **Inlämning av examinerande mindre uppgift: `CRUD` mot Databas**   |
-| TBD | TBD | TBD | Efter detta kommer det vara ett större grupparbete med agila metoder + genomgång av **Objektorienterad PHP** |
+| 10    | **42**    | 15/10   | MySQL + PDO Intro                                                               |
+| 11    | 42        | 19/10   | Versionshantering/`git`, att arbeta med kod i team                              |
+| 12    | **43**    | 22/10   | MySQL + PDO + PHP                                                               |
+| 13    | 43        | 26/10   | Eget arbete, **Inlämning av examinerande mindre uppgift: **CRUD mot Databas**   |                                                               |
+| 14    | **44**    | 29/10   | Användarhantering, autentisering, cookies & sessions                            |
+| 15    | 44        | 30/10   | Objektorienterad PHP                                                            |
+| 16    | 44        | 2/11    | Objektorienterad PHP                                                            |
+| 17    | **45**    | 5/11    | Projektarbete, `git`                                                            |
+| 18    | 45        | 9/11    | Projektarbete                                                                   |
+| 19    | **46**    | 12/11   | Projektarbete, **Obligatorisk demo av projektarbete**  |
+| 20    | 46        | 16/11   | Projektarbete                   |
+| 21    | **47**    | 19/11   | Projektarbete                   |
+| 22    | 47        | 23/11   | Projektarbete                   |
+| 23    | **48**    | 26/11   | Projektarbete, **Obligatorisk demo av projektarbete**                             |
