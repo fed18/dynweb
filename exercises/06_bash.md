@@ -29,7 +29,7 @@ Alla saker du gör i det grafiska gränssnittet kan översättas till kommandon 
 | `cp filename filename`          | Kopierar en fil från ett ställe till ett annat, första filnamnet är filen du ska kopiera och andra filnamnet är stället du ska kopiera till |
 | `cp -r foldername foldername `  | Kopierar en mapp, första mappnamnet är mappen du ska kopiera och andra mappnamet är stället du ska kopiera till |
 | `mv filename filename`          | Flyttar en fil, första filnamnet är filen du ska kopiera och andra filnamnet är stället du ska kopiera till  |
-| `mv -r foldername foldername`   | Flyttar en mapp, `-r` stor för _recursive_ |
+| `mv foldername foldername`   | Flyttar en mapp, `-r` stor för _recursive_ |
 | `rm filename`                   | Tar bort en fil, flyttar den inte till papperskorgen utan tar bort den direkt | 
 | `rm -r foldername`              | Tar bort en mapp med dess innehåll | 
 | `cat filename`                  | Skriver ut innehållet i en fil i terminalen |
