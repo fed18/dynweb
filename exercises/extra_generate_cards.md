@@ -33,28 +33,28 @@ _exempel_
 $list = [
   [
     "title" => "PHP Pandas",
-    "href" => "https ://daylerees.com/php-pandas/",
+    "href" => "https://daylerees.com/php-pandas/",
     "color" => "lightsalmon",
     "tags" => ["php", "beginner"],
     "date_added" => "2018-03-12"
   ],
   [
     "title" => "PHP Best Practices",
-    "href" => "https ://phpbestpractices.org/",
+    "href" => "https://phpbestpractices.org/",
     "color" => "blue",
     "tags" => ["bestpractice", "intermediate"],
     "date_added" => "2018-02-27"
   ],
   [
     "title" => "PHP The Right Way",
-    "href" => "http ://www.phptherightway.com/",
+    "href" => "http://www.phptherightway.com/",
     "color" => "lightblue",
     "tags" => ["bestpractice", "intermediate"],
     "date_added" => "2017-09-23"
   ],
   [
     "title" => "PHP Documentation",
-    "href" => "http =>//php.net/",
+    "href" => "http://php.net/",
     "color" => "yellow",
     "tags" => ["php", "documentation"],
     "date_added" => "2018-06-11"
