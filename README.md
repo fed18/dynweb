@@ -46,9 +46,9 @@ Se upp med PHP, många av resurserna på nätet är utdaterade och många exempe
 |-------|-------    |---------|---------------------------------------------------------------------------------|
 | 1     | **39**    | 24/9    | Introduktion, Sätta upp webserver, variabler, `if`/`else`                       |
 | 2     | 39        | 25/9    | Problemlösning, pseudokod, `for`/`foreach` och arrayer                          |   
-| 3     | 39        | 28/9    | Intro till Shell/Bash/Git Bash/terminalen                                       |
-| 4     | **40**    | 1/10    | Funktioner                                                                      |
-| 5     | 40        | 2/10    | Scope och funktioner fördjupning                                                |
+| 3     | 39        | 28/9    | SJUK: INSTÄLLD                                      |
+| 4     | **40**    | 1/10    | Intro till Shell/Bash/Git Bash/terminalen                                                                   |
+| 5     | 40        | 2/10    | Funktioner                                                  |
 | 6     | 40        | 5/10    | **Examinerande mindre quiz: Grundläggande PHP**, Formulär `GET`/`POST`          |
 | 7     | **41**    | 8/10    | Sessions & `GET`/ `POST` /                                                      |
 | 8     | 41        | 9/10    | Kodstruktur: `include`/`require`, stilguider och Best Practice                  |
