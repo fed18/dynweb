@@ -235,7 +235,7 @@ function mjau_machine($number_of_mjau){
     }
 }
 
-echo $mjau_machine(10);
+echo mjau_machine(10);
 ```
 
 6.
