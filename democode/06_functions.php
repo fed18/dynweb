@@ -6,7 +6,6 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>PHP</title>
 	<style>
-
 		body {
 			margin: 2rem 0 0 0;
 			width: 100vw;
@@ -25,7 +24,6 @@
 <body>
 
 <?php
-
 /**
  * Function declaration, this function will produce
  * either a heading with the supplied content, or
@@ -48,7 +46,6 @@ $heading = heading("Another", "Jesper");
 echo $heading;
 // Function call again
 echo heading("Bloggy");
-
 /**
  * If we put our code into a function we can decide when
  * this code will run. The code will only run when we call
@@ -65,7 +62,6 @@ function sum(){
    * inside of the function cease to exist
    */ 
 }
-
 /**
  * sum() only returns a value it doesn't save it or print
  * it to the user, we must save the value in a variabel
@@ -73,7 +69,6 @@ function sum(){
  */
 $sum = sum();
 echo sum() * sum();
-
 ?>
 
 </body>
