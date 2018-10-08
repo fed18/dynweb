@@ -1,7 +1,7 @@
 # Sessions
 
 ## `index.php`
-```php+html
+```php
 <?php
 session_start();
 ?>
@@ -50,7 +50,7 @@ session_start();
 ```
 ### `redirect.php`
 
-```php+html
+```php
 <?php
 session_start();
 
@@ -72,7 +72,7 @@ header('Location: /index.php');
 ```
 ### `logout.php`
 
-```php+html
+```php
 <?php
 session_start();
 
@@ -83,7 +83,7 @@ header('Location: /index.php');
 ?>
 ```
 
-```php+html
+```php
 <?php
 session_start();
 
