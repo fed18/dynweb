@@ -1,5 +1,9 @@
 # Sessions
 
+---
+
+
+
 `$_SESSION`
 
 * I sessionsvariabeln kan vi lagra information som ska vara under en längre tid
