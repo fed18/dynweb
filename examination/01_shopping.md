@@ -59,7 +59,7 @@ Följande tekniska krav ska uppfyllas:
 
 G/VG baseras på hur väl upplagd koden är och i vilken grad du utnyttjar programmeringsspråket.
 
-* Snyggt och prydligt skriven kod. Detta innefattar konsekvent namngivning av variabler, korrekt intabbning av koden och en logisk kodföljd. Detta omfattar såväl HTML, CSS som PHP.
+* Väl upplagd kod. Detta innefattar konsekvent namngivning av variabler, korrekt intabbning av koden och en logisk kodföljd. Detta omfattar såväl HTML, CSS som PHP.
 * Förmåga att välja och använda rätt funktionalitet för rätt ändamål gällande variabler, loopar, statements och funktioner på ett smart sätt.
 * Förmåga att kommentera kod när det behövs och att kommentera på ett tydligt sätt.
 * Förmåga att hantera formulär, inkl. skicka och ta emot data i PHP och att lagra denna på ett strukturerat sätt.
