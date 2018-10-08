@@ -60,3 +60,50 @@ Till detta behöver vi använda `$_GET` för att skicka med ett värde vid varje
 Längst ner på sidan brukar pagineringen finnas, i form av länkar. Vi kan nöja oss med att visa fyra länkar “direkt”, dvs en på var sida om befintlig sida, samt en previous och next. Det bör se ut ungefär så här om vi är på sidan 6.
 
 `Previous 4 5 6 7 8 Next`
+
+
+## Lösningsförslag
+
+### Paginering
+
+```php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>PHP</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav>
+		<a href="index.php?page=1">1</a>
+		<a href="index.php?page=2">2</a>
+		<a href="index.php?page=3">3</a>
+		<a href="index.php?page=4">4</a>
+	</nav>
+	
+	<main>
+		<?php
+			if(isset($_GET["page"])){
+				if($_GET["page"] == 1){
+					echo "Sida 1";
+				}
+				if($_GET["page"] == 2){
+					echo "Sida 2";
+				}
+
+				if($_GET["page"] == 3){
+					echo "Sida 3";
+				}
+
+				if($_GET["page"] == 4){
+					echo "Sida 3";
+				}
+		}
+		?>
+	</main>
+</body>
+</html>
+```
