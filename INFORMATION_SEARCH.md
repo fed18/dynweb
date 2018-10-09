@@ -44,7 +44,7 @@ I många fall har du inte ett specifikt felmeddelande som du kan söka på utan 
 
 1. **Förstå** - Om du inte vet vad **du** vill åstadkomma så är det svårt att lösa problemet. Uttryck problemet i dina egna ord eller försök att omformulera det så att det är tydligt vad du vill åstadkomma.
 2. **Planera** - Gör upp en lista eller skriv pseudokod för att strukturera problemet, ha en plan, du behöver inte följa den till punkt och pricka men det är ändå någonting.
-  - _"In preparing for battle I have always found that plans are useless, but planning is indispensable."_ -Dwight D. Eisenhower
+  * _"In preparing for battle I have always found that plans are useless, but planning is indispensable."_ -Dwight D. Eisenhower
 3. **Dela upp** - Dela upp problemet eller listan ytterligare för att det ska bli tydligare vilka steg du måste ta och i vilken ordning. **Se exemplet nedan**
 4. **Testa din lösning**
 5. **Omformulera/omvärdera** - Funkar inte din lösning, omvärdera och omformulera lösningen, nu har du troligtvis en lista på saker som **inte** fungerar vilket är mer än du hade förut.
@@ -53,14 +53,14 @@ I många fall har du inte ett specifikt felmeddelande som du kan söka på utan 
 
 T.ex. är formuleringen _“kolla så att användaren skrivit in ett lösenord som är över 6 tecken”_ inte en enda sak som ska lösas utan det kan delas upp i *minst* de här delproblemen som måste lösas ett i taget och dubbelkollas innan man går vidare till nästa problem. Oftast vill man lösa typ hälften av dom i en och samma veva och det är då man får mer problem än vad man hade från början. Man ska även börja med det problem som man har “närmast” till att lösa, där man typ vet svaret eller har ett hum om hur det ska lösas, förhoppningsvis kommer den lösning man kommer fram till att hjälpa en i nästa problem.
 
-• Läsa in lösenord från användare
-• Ha ett sätt att skicka lösenordet till där det ska sparas
-• Spara lösenord från användaren när det har skickats
-• Kolla så att lösenordet har sparats i rätt format/typ
-• Kolla så att lösenordet har rätt längd
-• Agera på att lösenordet har rätt längd
-• Agera på att lösenordet inte har rätt längd
-• Agera på resterande möjliga scenarion
+* Läsa in lösenord från användare
+* Ha ett sätt att skicka lösenordet till där det ska sparas
+* Spara lösenord från användaren när det har skickats
+* Kolla så att lösenordet har sparats i rätt format/typ
+* Kolla så att lösenordet har rätt längd
+* Agera på att lösenordet har rätt längd
+* Agera på att lösenordet inte har rätt längd
+* Agera på resterande möjliga scenarion
 
 Många fel händer p.g.a. att man agerar på värden som man tror är en sak men visar sig vara något annat. Skriv ut dina värden i *stor utsträckning* för att kolla vilka värden du har och inte har, vilka variabler som existerar och som inte existerar i varje skede av koden. (_Stop thinking and look_)
 
@@ -73,9 +73,9 @@ Om vi bara fokuserar på ett specifikt delproblem som vi vill lösa så kan vi t
 Då kan du oftast applicera följande process:
 
 1. Formulera en mening som beskriver exakt det du är ute efter så smalt som möjligt och som inkluderar en kontext. Med kontext menar jag t.ex. att vi använder språket PHP. Så kan vi försöka med följande meningar:
-  * _"how to check the length of a string php"_
-  * _"how to check the length of a password php"_
-  * _"length of string php"_
-  * _"length string php"_
+    * _"how to check the length of a string php"_
+    * _"how to check the length of a password php"_
+    * _"length of string php"_
+    * _"length string php"_
 2. Resultatet från dessa sökningar kommer troligtvis leda dig till [Stackoverflow.com](https://stackoverflow.com/) där de flesta svaren finns samlade. Förlita dig dock inte bara på denna sida och förlita dig inte bara på det första resultatet. Kolla så att flera svar på frågan stämmer överens och vad eventuella alternativa metoder kan vara.
 3. I detta fall så kommer resultaten ungefär säga samma sak: **använd metoden `strlen`**. Vilket betyder att du måste kolla upp vad `strlen` är och kanske främst, hur den fungerar. Information om detta hittar du troligtvis i dokumentationen för språket: [`strlen` @ _PHP.net](http://php.net/manual/en/function.strlen.php)
