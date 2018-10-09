@@ -103,3 +103,11 @@ echo $a; // 10
 ```php
 <div class="card"><?= $city ?></div>
 ```
+
+---
+
+`footer.php`
+```php
+</body>
+</html>
+```
