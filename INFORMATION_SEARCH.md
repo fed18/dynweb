@@ -44,7 +44,7 @@ I många fall har du inte ett specifikt felmeddelande som du kan söka på utan 
 
 1. **Förstå** - Om du inte vet vad **du** vill åstadkomma så är det svårt att lösa problemet. Uttryck problemet i dina egna ord eller försök att omformulera det så att det är tydligt vad du vill åstadkomma.
 2. **Planera** - Gör upp en lista eller skriv pseudokod för att strukturera problemet, ha en plan, du behöver inte följa den till punkt och pricka men det är ändå någonting.
-  * _"In preparing for battle I have always found that plans are useless, but planning is indispensable."_ -Dwight D. Eisenhower
+    * _"In preparing for battle I have always found that plans are useless, but planning is indispensable."_ -Dwight D. Eisenhower
 3. **Dela upp** - Dela upp problemet eller listan ytterligare för att det ska bli tydligare vilka steg du måste ta och i vilken ordning. **Se exemplet nedan**
 4. **Testa din lösning**
 5. **Omformulera/omvärdera** - Funkar inte din lösning, omvärdera och omformulera lösningen, nu har du troligtvis en lista på saker som **inte** fungerar vilket är mer än du hade förut.
