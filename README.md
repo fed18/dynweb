@@ -57,13 +57,13 @@ Se upp med PHP, många av resurserna på nätet är utdaterade och många exempe
 | 11    | 42        | 19/10   | Versionshantering/`git`, att arbeta med kod i team                              |
 | 12    | **43**    | 22/10   | MySQL + PDO + PHP                                                               |
 | 13    | 43        | 26/10   | Eget arbete, **Inlämning av examinerande mindre uppgift: _CRUD mot Databas_**   |                                                               |
-| 14    | **44**    | 29/10   | Användarhantering, autentisering, cookies & sessions                            |
+| 14    | **44**    | 29/10   | `git` branching/merge                                                           |
 | 15    | 44        | 30/10   | Objektorienterad PHP                                                            |
 | 16    | 44        | 2/11    | Objektorienterad PHP                                                            |
-| 17    | **45**    | 5/11    | Projektarbete, `git`                                                            |
-| 18    | 45        | 9/11    | Projektarbete                                                                   |
-| 19    | **46**    | 12/11   | Projektarbete, **Obligatorisk demo av projektarbete**  |
-| 20    | 46        | 16/11   | Projektarbete                   |
-| 21    | **47**    | 19/11   | Projektarbete                   |
-| 22    | 47        | 23/11   | Projektarbete                   |
-| 23    | **48**    | 26/11   | Projektarbete, **Obligatorisk demo av projektarbete**                             |
+| 17    | **45**    | 5/11    | WordPress Intro                                                                 |
+| 18    | 45        | 9/11    | WordPress Child Themes                                                          |
+| 19    | **46**    | 12/11   | WordPress Custom Templates                                                      |
+| 20    | 46        | 16/11   | WordPress **Inlämning av Wordpress-uppgift**                                    |
+| 21    | **47**    | 19/11   | Projektarbete                                                                   |
+| 22    | 47        | 23/11   | Projektarbete                                                                   |
+| 23    | **48**    | 26/11   | Projektarbete, **Obligatorisk demo av projektarbete**                           |
