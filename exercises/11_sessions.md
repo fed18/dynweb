@@ -19,7 +19,7 @@ Det finns flera sätt att spara information om användaren, session är den enkl
 
 Som du kanske sett på php.net kan vi själva bestämma vad vi vill lagra i sessions-variabeln. Exempelvis kan vi skapa en användarrelaterad avdelning:
 
-```php+HTML
+```php
 <?php
 // Always start the session, otherwise $_SESSION isn't available
 session_start();
@@ -31,7 +31,7 @@ $_SESSION["userLevel"] = 42;
 ?>
 ```
 
-```php+HTML
+```php
 <?php
 // In a completely different file, start session and echo the value
 session_start();
@@ -40,8 +40,6 @@ echo $_SESSION["userLevel"] // "42"
 
 ?>
 ```
-
-
 
 ## Övningar
 
@@ -63,6 +61,243 @@ Längst ner på sidan brukar pagineringen finnas, i form av länkar. Vi kan nöj
 
 
 ## Lösningsförslag
+
+### Login
+
+#### Ahnna
+
+`index.php`
+```php
+<?php
+session_start();
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    
+    <?php if(isset($_GET["error"])){ ?>
+      
+    <style>
+    	#password, #usersname{
+        background-color: red
+			}
+		</style>
+        
+		<?php } ?>
+		
+</head>
+<body>
+    <form action="login_submit.php" method="POST">
+         <label for="usersname">Name</label>
+         <input id="usersname" name="usersname" type="text" placeholder="usersname">
+         <label for="password">Password</label>
+         <input id="password" name="password" type="text">
+         <input type="submit" value="Submit">
+    </form>
+    
+    <?php if(isset($_GET["error"])) {
+        echo ($_GET["error"]);
+    } ?>
+    
+    
+</body>
+</html>
+```
+
+---
+
+`form_submit.php`
+```php
+<?php
+session_start();
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: yellow;
+        }    
+    </style>
+</head>
+<body>
+<?php
+    
+    if(strlen($_POST["usersname"]) < 6 && strlen($_POST["password"]) < 6){
+        header('Location: login_ovn.php?error=Both username and password must be longer than 6 characters.');
+    } else if(strlen($_POST["password"]) < 6){
+        header('Location: login_ovn.php?error=Password must be longer than 6 characters.');
+    } else if(strlen($_POST["usersname"]) < 6){
+        header('Location: login_ovn.php?error=Username must be longer than 6 characters.');
+    }
+?>
+</body>
+</html>
+```
+
+#### Melker
+
+`index.php`
+```php
+<?php
+session_start();
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>My Website</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	</head>
+<body>
+
+<form action="form.php" method ="POST">
+  <div class="form-group">
+    <label for="Username">Username</label>
+    <input type="text" name="username" class="form-control" id="username" placeholder="Enter Username">
+  </div>
+  <div class="form-group">
+    <label for="password">Password</label>
+    <input type="password" name="password" class="form-control" id="password" placeholder="Enter your password">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<?php
+if (isset ($_SESSION["username"])){
+echo 'Du är inloggad som: ' . $_SESSION["username"];
+                            }
+?>
+<br>
+<a href="logout.php">Logout</a>
+
+</body>
+</html>
+```
+
+---
+
+`form.php`
+```php
+<?php
+session_start();
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>My Website</title>
+	</head>
+<body>
+
+<?php
+
+if (isset($_POST["username"]) && ($_POST ["username"] == true) && ($_POST ["password"] == true))
+{
+             
+	if (isset($_POST["password"]) && strlen ($_POST ["password"]) > 8){
+		$_SESSION["username"] = $_POST ["username"];
+		echo 'Hej ' . $_POST["username"];
+		echo ' inloggningen gick bra!';
+		echo '<style> body {background-color: lightgreen;} </style>';
+	}
+	else {
+		echo 'Password needs to be at least 8 characters';
+	}
+    
+} else {
+	echo 'Both fields requieres input ';
+} 
+    
+    
+?>
+<br>
+<a href="index.php">Return to index</a>
+
+</body>
+</html>
+```
+
+---
+
+`logout.php`
+```php
+<?php
+session_start();
+
+session_destroy();
+
+header('Location: /sessions/index.php');
+
+?>
+```
+
+#### Lukas
+
+`index.php`
+```php
+<?php
+session_start();
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <a href="logout.php">Log out</a>
+    <form action="login.php" method="POST">
+        <label for="username">Username</label>
+        <input type="text" name="username"/>
+        <label for="password">Password</label>
+        <input type="text" name="password"/>
+        <input type="submit" value="skicka"/>
+    </form>
+    <?= $_SESSION["username"]?>
+</body>
+</html> 
+```
+
+---
+
+`login.php`
+```php
+<?php
+session_start();
+​
+if(isset($_POST["username"]) && strlen($_POST["username"])>3){
+  if(strlen($_POST["password"])>=3 && strlen($_POST["password"])<=12){
+    $_SESSION["username"] = $_POST["username"];
+    $_SESSION["password"] = $_POST["password"];
+    echo "<h2>Success!</h2><br><a href='sessions.php'>Return to site</a>";
+  }else{
+    echo "error: password must be between 3 and 12 characters<br><a href='/sessions.php'>Return</a>";
+  }
+}else{
+  echo "error: username must be between 3 and 12 characters<br><a href='/sessions.php'>Return</a>";
+}
+?>
+```
+
+---
+
+`logout.php`
+```php
+<?php
+session_start();
+session_destroy();
+header('Location: /sessions.php');
+?>
+```
 
 ### Paginering
 
@@ -87,18 +322,21 @@ Längst ner på sidan brukar pagineringen finnas, i form av länkar. Vi kan nöj
 	<main>
 		<?php
 			if(isset($_GET["page"])){
-				if($_GET["page"] == 1){
+
+				$current_page = (int)$_GET["page"];
+				
+				if($current_page === 1){
 					echo "Sida 1";
 				}
-				if($_GET["page"] == 2){
+				if($current_page === 2){
 					echo "Sida 2";
 				}
 
-				if($_GET["page"] == 3){
+				if($current_page === 3){
 					echo "Sida 3";
 				}
 
-				if($_GET["page"] == 4){
+				if($current_page === 4){
 					echo "Sida 3";
 				}
 		}

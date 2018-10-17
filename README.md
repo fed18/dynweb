@@ -46,24 +46,25 @@ Se upp med PHP, många av resurserna på nätet är utdaterade och många exempe
 |-------|-------    |---------|---------------------------------------------------------------------------------|
 | 1     | **39**    | 24/9    | Introduktion, Sätta upp webserver, variabler, `if`/`else`                       |
 | 2     | 39        | 25/9    | Problemlösning, pseudokod, `for`/`foreach` och arrayer                          |   
-| 3     | 39        | 28/9    | SJUK: INSTÄLLD                                      |
-| 4     | **40**    | 1/10    | Intro till Shell/Bash/Git Bash/terminalen                                                                   |
-| 5     | 40        | 2/10    | Funktioner                                                  |
+| 3     | 39        | 28/9    | SJUK: INSTÄLLD                                                                  |
+| 4     | **40**    | 1/10    | Intro till Shell/Bash/Git Bash/terminalen                                       |
+| 5     | 40        | 2/10    | Funktioner                                                                      |
 | 6     | 40        | 5/10    | **Examinerande mindre quiz: Grundläggande PHP**, Formulär `GET`/`POST`          |
 | 7     | **41**    | 8/10    | Sessions & `GET`/ `POST` /                                                      |
 | 8     | 41        | 9/10    | Kodstruktur: `include`/`require`, stilguider och Best Practice                  |
-| 9     | 41        | 12/10   | Eget arbete, **Inlämning av examinerande mindre uppgift: _Formulärhantering_**  |
-| 10    | **42**    | 15/10   | MySQL + PDO Intro                                                               |
-| 11    | 42        | 19/10   | Versionshantering/`git`, att arbeta med kod i team                              |
-| 12    | **43**    | 22/10   | MySQL + PDO + PHP                                                               |
-| 13    | 43        | 26/10   | Eget arbete, **Inlämning av examinerande mindre uppgift: _CRUD mot Databas_**   |                                                               |
-| 14    | **44**    | 29/10   | `git` branching/merge                                                           |
-| 15    | 44        | 30/10   | Objektorienterad PHP                                                            |
-| 16    | 44        | 2/11    | Objektorienterad PHP                                                            |
-| 17    | **45**    | 5/11    | WordPress Intro                                                                 |
-| 18    | 45        | 9/11    | WordPress Child Themes                                                          |
-| 19    | **46**    | 12/11   | WordPress Custom Templates                                                      |
-| 20    | 46        | 16/11   | WordPress **Inlämning av Wordpress-uppgift**                                    |
-| 21    | **47**    | 19/11   | Projektarbete                                                                   |
-| 22    | 47        | 23/11   | Projektarbete                                                                   |
-| 23    | **48**    | 26/11   | Projektarbete, **Obligatorisk demo av projektarbete**                           |
+| 9     | 41        | 12/10   | INSTÄLLT , **Inlämning av examinerande mindre uppgift: _Formulärhantering_**  |
+| 10    | **42**    | 15/10   | Eget arbete                                                               |
+| 11    | 42        | 18/10   | SQL + PDO Intro                             |
+| 12    | 42        | 19/10   | `git`/versionshantering                            |
+| 13    | **43**    | 22/10   | MySQL + PDO + PHP + Användarhantering                                                              |
+| 14    | 43        | 26/10   | MySQL + PDO + PHP + eget arbete                                                      |
+| 15    | **44**    | 29/10   | `git` branching/merge fördjupning, **Inlämning av examinerande mindre uppgift: _CRUD mot Databas_**  |                                                       |
+| 16    | 44        | 30/10   | Objektorienterad PHP                                                            |
+| 17    | 44        | 2/11    | Objektorienterad PHP                                                            |
+| 18    | **45**    | 5/11    | WordPress Intro                                                                 |
+| 19    | 45        | 9/11    | WordPress Child Themes                                                          |
+| 20    | **46**    | 12/11   | WordPress Custom Templates                                                      |
+| 21    | 46        | 16/11   | WordPress **Inlämning av Wordpress-uppgift**                                    |
+| 22    | **47**    | 19/11   | Projektarbete                                                                   |
+| 23    | 47        | 23/11   | Projektarbete                                                                   |
+| 24    | **48**    | 26/11   | Projektarbete, **Obligatorisk demo av projektarbete**                           |
