@@ -93,8 +93,9 @@ highlight_string("<?php =\n" . var_export($your_variable, true) . ";\n?>");
 Använd samma databas som i föregående övningar (animals/cities) och visa upp samma information fast i PHP/HTML. Du ska alltså hämta all information med hjälp av PDO som ovan och sedan loopa ut den på sidan.
 
 Några saker du kan testa:
-    * Gör så att man kan ändra sorteringen på listan genom att trycka på en knapp. Att sorteringen ska gå från ASC till DESC
-    * Går så att man via ett inputfält kan söka efter ett visst speciellt djur
-    * Gör så att man bara ser namnet på djuret i en lista, sedan när man trycker på en knapp som är kopplat till djuret så visas mer information om djuret.
-    * Skriv en SQL query som lagrar ett nytt djur i databasen via PDO, detta kan antingen hårdkodas in eller skickas in via ett eller flera input-fält
-    * Skriv en SQL query som tar bort ett visst djur från databasen via PDO
+
+* Gör så att man kan ändra sorteringen på listan genom att trycka på en knapp. Att sorteringen ska gå från ASC till DESC
+* Går så att man via ett inputfält kan söka efter ett visst speciellt djur
+* Gör så att man bara ser namnet på djuret i en lista, sedan när man trycker på en knapp som är kopplat till djuret så visas mer information om djuret.
+* Skriv en SQL query som lagrar ett nytt djur i databasen via PDO, detta kan antingen hårdkodas in eller skickas in via ett eller flera input-fält
+* Skriv en SQL query som tar bort ett visst djur från databasen via PDO
