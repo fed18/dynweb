@@ -143,13 +143,13 @@ SELECT * FROM animals ORDER BY color ASC, born DESC
 8.
 
 ```sql
-SELECT CONCAT("Name: ", course_name) AS Name from courses
+SELECT CONCAT("Name: ", animal) AS animal from animals
 ```
 
 9.
 
 ```sql
-SELECT  color + ' ' + animal as Animal FROM animals
+SELECT CONCAT(color, animal) as Animal FROM animals
 ```
 
 ## Countries

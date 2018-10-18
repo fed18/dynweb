@@ -66,7 +66,3 @@ build-lists: true
 * Fler kommentarer (varför, inte vad)
 * Mer HTML & mindre `echo`
 * Mer funktioner!
-
----
-
-Rast
