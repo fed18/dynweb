@@ -100,11 +100,13 @@ git reset HEAD~2
 ---
 
 * Har kvar ändringarna men tar bort commiten, utifall sparningen blev fel på något vis
+
 ```bash
 git reset HEAD~1
 ```
 
 * Tar bort commiten **OCH** tar bort alla ändringar 😱
+
 ```bash
 git reset --hard HEAD~1
 ```
@@ -126,3 +128,55 @@ git checkout master
 ```
 
 ---
+
+## **Branches**
+
+---
+
+![inline](images/branch.png)
+
+---
+
+## Vanliga typer av branches
+
+* feature
+* hotfix
+* Men en branch kan heta vadsomhelst och innehålla vadsomhelst. Det är en alternativ version av din kod
+* Används för att testa att implementera en viss kod innan man bestämmer sig för att använda den i den slutgiltiga produkten
+
+---
+
+### Branches
+
+* `master` är den slutgiltiga produkten
+* `development` brukar finnas för utveckling
+* Man drar sedan in ändringarna från `development` till `master` när det är "färdigt"
+
+---
+
+### Problem
+
+* Gör du en branch kl 9 på morgonen utgår branchen från hur den ursprungliga koden såg ut kl 9 på morgonen.
+* Gör en kollega en ändring på den koden du gjorde en branch på t.ex. kl 14. så har du inte dessa ändringar.
+* Du måste uppdatera din egen branch med de nya ändringarna och sedan fortsätta arbeta.
+* Förhoppningsvis jobbar ni på två helt separata saker så det blir inga konflikter.
+
+---
+
+## Kommandon
+
+* Skapa branch
+
+```bash
+git branch development
+```
+
+* Växla mellan branches
+
+```bash
+git checkout development
+```
+
+```bash
+git checkout master
+```
