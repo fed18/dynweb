@@ -320,7 +320,7 @@ header('Location: index.php');
 ### Remove animal
 
 `index.php`
-```php
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
