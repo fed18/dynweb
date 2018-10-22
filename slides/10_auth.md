@@ -21,7 +21,7 @@ build-lists: true
 ---
 
 ```php
-$original_password = "qwerty"
+$original_password = "qwerty";
 $hashed_password = password_hash($original_password);
 ```
 
@@ -32,9 +32,9 @@ $hashed_password = password_hash($original_password);
 ## `password_verify` returnerar `true` eller `false`
 
 ```php
-$original_password = "qwerty"
+$original_password = "qwerty";
 $hashed_password = password_hash($original_password);
-$is_password_correct = password_verify($hashed_password, $original_password)
+$is_password_correct = password_verify($hashed_password, $original_password);
 
 if($is_password_correct){
   // Password is correct
@@ -52,4 +52,6 @@ if($is_password_correct){
 
 ---
 
-
+* Skapa en ny mapp i MAMP/htdocs
+* Starta git: `git init`
+* Göra commit: `git add` + `git commit`
