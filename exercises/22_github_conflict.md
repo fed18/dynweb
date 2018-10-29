@@ -42,8 +42,9 @@ function addNumbers($numbers) {
 ![imgur-2018_06_18-07:58:23](https://i.imgur.com/uaX4qe7.png)
 22. Döp repot till valfritt namn och se till så att *Initialize this repository with a README* **inte** är ikryssat
 ![imgur-2018_06_18-07:57:44](https://i.imgur.com/VAoSKM5.png)
-23. Följ **enbart** instruktionerna under **...or push from an existing repository from the command line**. Kopiera raderna och kör dessa i din terminal. Det är två stycken kommandon du ska göra efter varandra. Kolla så att du har stavat rätt.
-24. Pusha även upp branchen `master` samt `multiple-arguments` genom att skriva följande kommando. `origin` är ett smeknamn på urlen till repot som ligger på GitHub. `master` är branchen du vill pusha upp och `-u` står för `upstream` och säger att du vill ha koll på om du ligger i synk med branchen på din remote (svårt att förklara här, ha bara med `-u`).
+23. Följ **enbart** instruktionerna under **...or push from an existing repository from the command line**. Kopiera raderna och kör dessa i din terminal. Det är två stycken kommandon du ska göra efter varandra. Kolla så att du har stavat rätt. URLen kommer inte se ut som på bilden. Du ska använda din egen URL.
+![imgur](https://i.imgur.com/WuYQz9z.png)
+24. Pusha upp branchen `master` som föregående punkt samt `multiple-arguments` genom att skriva följande kommando. `origin` är ett smeknamn på urlen till repot som ligger på GitHub. `master` är branchen du vill pusha upp och `-u` står för `upstream` och säger att du vill ha koll på om du ligger i synk med branchen på din remote (svårt att förklara här, ha bara med `-u`).
 ```bash
 git push -u origin master
 ```
@@ -55,7 +56,7 @@ git push -u origin multiple-arguments
 ![New Pull Request](https://i.imgur.com/4okoO8q.png)
 26. På sidan du kommer till så finns det nu två dropdowns. Välj **master** på den första och **multiple-arguments** på den andra som bilden. Du borde få upp att det inte går att mergea dessa två automatiskt. Skriv in en informerande titel på din Pull Request och tryck sedan på **Create Pull Request**.
 ![Create Pull Request](https://i.imgur.com/yCD9NGQ.png)
-27. Du kommer nu komma till en ny sida där du måste lösa de konflikter som uppstått. Detta kan du göra direkt i GitHub genom att trycka på **Resolve Conflicts**.
+27. Du kommer nu komma till en ny sida där du måste lösa de konflikter som uppstått. Detta kan du göra direkt i GitHub genom att trycka på **Resolve Conflicts**. Det ska iaf vara en konflikt, om det mot förmodan inte är en konflikt kan du hoppa till punkt 30. 
 ![Resolve Conflicts](https://i.imgur.com/oBQ5PlN.png)
 28. Då kommer du komma till en editor där du kan redigera din fil på samma sätt som du gjorde lokalt i förra övningen ([18_git_conflict.md](18_git_conflict.md): punkt 22 och 23). När du är klar med ändringarna trycker på på knappen **Mark as Resolved**.
 ![Mark as Resolved](https://i.imgur.com/swK1b5X.png)
