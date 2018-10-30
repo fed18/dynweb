@@ -8,8 +8,8 @@
 
 ---
 
-* En funktion grupperar och namnger en grupp av kod som "hör ihop"
-* En klass grupperar och namnger variabler och funktioner som "hör ihop"
+* En **funktion** grupperar och namnger en grupp av kod som "hör ihop"
+* En **klass** grupperar och namnger variabler och funktioner som "hör ihop"
 * Vad som "hör ihop" eller inte är OOPs stora problem
 
 ---
