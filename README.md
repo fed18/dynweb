@@ -16,6 +16,11 @@ Se upp med PHP, många av resurserna på nätet är utdaterade och många exempe
 * [__PHP.NET Official Documentation__](http://php.net/)
     - Officiella dokumentationen för _PHP_. Ungefär som MDN.
 
+#### Coding Standard
+
+* [PSR-1: Basic Coding Standard](https://www.php-fig.org/psr/psr-1/)
+* [PSR-2: Coding Style Guide](https://www.php-fig.org/psr/psr-2/)
+
 #### YouTube
 
 * [_TraversyMedia_: __PHP Front To Back__](https://www.youtube.com/watch?v=oJbfyzaA2QA)
@@ -58,9 +63,9 @@ Se upp med PHP, många av resurserna på nätet är utdaterade och många exempe
 | 12    | 42        | 19/10   | `git`/versionshantering                            |
 | 13    | **43**    | 22/10   | MySQL + PDO + PHP + Användarhantering                                                              |
 | 14    | 43        | 26/10   | MySQL + PDO + PHP + eget arbete                                                      |
-| 15    | **44**    | 29/10   | `git` branching/merge fördjupning, **Inlämning av examinerande mindre uppgift: _CRUD mot Databas_**  |                                                       |
-| 16    | 44        | 30/10   | Objektorienterad PHP                                                            |
-| 17    | 44        | 2/11    | Objektorienterad PHP                                                            |
+| 15    | **44**    | 29/10   | `git` branching/merge fördjupning |                                                       |
+| 16    | 44        | 30/10   | `git` branching/merge fördjupning / Objektorienterad PHP                                                            |
+| 17    | 44        | 2/11    | Objektorienterad PHP, **Inlämning av examinerande mindre uppgift: _CRUD mot database_** |
 | 18    | **45**    | 5/11    | WordPress Intro                                                                 |
 | 19    | 45        | 9/11    | WordPress Child Themes                                                          |
 | 20    | **46**    | 12/11   | WordPress Custom Templates                                                      |
