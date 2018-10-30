@@ -59,12 +59,12 @@ class Taco {
   public $isVegan;
 
   public function yoIsThisVegan(){
-    echo $this->vegan;
+    echo $this->isVegan;
   }
 }
 
 $nice_taco = new Taco();
-$nice_taco->vegan = true;
+$nice_taco->isVegan = true;
 $nice_taco->yoIsThisVegan(); // echos 'true'
 
 ```
@@ -78,3 +78,57 @@ $nice_taco->yoIsThisVegan(); // echos 'true'
 ---
 
 * Gör gruppövningen `24_calculator.md`
+
+---
+
+## **Konstruktor**
+
+---
+
+* En konstruktor körs när objektet skapas, även om du inte definierar än
+* En konstruktor tillåter en att köra kod och lägga till värden direkt när man skapar objektet utifrån klassen
+
+---
+
+```php
+class Taco{
+  public $bread;
+  public $isVegan;
+  
+  public function __construct($bread, $isVegan)
+  {
+    $this->bread = $bread;
+    $this->isVegan = $isVegan;
+  }
+}
+
+$nice_taco = new Taco("Soft Tortilla", false);
+
+```
+
+---
+
+* Värden som skickas in mellan paranteserna på `Taco` blir de parametrar som tas emot i `construct()`
+* I det här fallet blir `"Soft Tortilla"` till `$bread` som sedan lagras i `$this->bread`, d.v.s. lagras i objektets `this`
+
+---
+
+## Default values
+
+```php
+class Taco{
+  public $bread;
+  public $isVegan;
+  public $isEdible;
+  
+  public function __construct($bread, $isVegan = true)
+  {
+    $this->bread = $bread;
+    $this->isVegan = $isVegan; 
+    $this->isEdible = true;
+  }
+}
+
+$nice_taco = new Taco("Soft Tortilla");
+
+```
