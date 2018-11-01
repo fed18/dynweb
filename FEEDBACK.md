@@ -2,7 +2,7 @@
 
 ## Indentering
 
-Tänk på att ha ett bra flöde i koden och att indenteringen är rätt. Det ska vara som att läsa en bra bok. Observera indenteringen vid varje kodblock nedan. Varje ny `if`-sats eller `foreach`-loop skapar en ny nivå av indentering. Ha inte heller alldeles för luftigt mellan de olika kodblocken.
+Tänk på att ha ett bra flöde i koden och att indenteringen är rätt. Det ska vara som att läsa en bra bok. Observera indenteringen vid varje kodblock nedan. Varje ny `if`-sats eller `foreach`-loop skapar en ny nivå av indentering. Ha inte heller alldeles för luftigt mellan de olika kodblocken, det är dock bättre att ha det luftigt än kompakt, men t.e.x mellan foreach och if nedan ska det inte vara typ 5 blankrader, det räcker med 1 i så fall.
 
 ```php
 $list_of_strings = ["Hej", "Hej igen", "Hej ytterligare en gång"];
@@ -13,16 +13,21 @@ foreach($list_strings as $string) {
 }
 ```
 
-Detsamma gäller när vi blandar ren HTML med PHP, försök att följa vattenfallet:
+Detsamma gäller när vi blandar ren HTML med PHP, försök att följa vattenfallet och om det blir kompakt så kan vi lägga till en blankrad om det känns bättre för dig som läser.:
 
 ```php
 $list_of_strings = ["Hej", "Hej igen", "Hej ytterligare en gång"];
+
 foreach($list_strings as $string): 
-   if(strlen($string) < 5): ?>
+  
+  if(strlen($string) < 5): ?>
+
      <div>
        <p> <?= $string ?> </p>
      </div
+
    <?php endif; ?>
+
 <?php endforeach; ?>
 ```
 
@@ -36,12 +41,14 @@ Om det blir mycket HTML-kod så plocka gärna ut HTML-koden i en `include/requir
 ```
 
 ```php
+// index.php
 $list_of_strings = ["Hej", "Hej igen", "Hej ytterligare en gång"];
-foreach($list_strings as $string) {
-   if(strlen($string) < 5) {
-      include 'card.php`
-   }
-}
+
+foreach($list_of_strings as $string):
+   if(strlen($string) < 5):
+      include 'card.php';
+   endif;
+endforeach;
 ```
 
 ## Variabelnamn och funktionsnamn
