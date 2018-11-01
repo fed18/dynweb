@@ -68,8 +68,9 @@ $posts = $st2->fetchAll();
 $select_all_users_statement = $pdo->prepare("SELECT * FROM users");
 $select_all_users_statement->execute();
 $all_users = $select_all_users_statement->fetchAll();
+
 $select_all_posts_statement = $pdo->prepare("SELECT * FROM posts");
-$select_all_post_statement->execute();
+$select_all_posts_statement->execute();
 $all_posts = $select_all_posts_statement->fetchAll();
 ```
 
