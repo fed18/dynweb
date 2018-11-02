@@ -102,7 +102,7 @@ class Cat implements ICanJump {
    }
 }
 
-class Human implements CanJumpInterface {
+class Human implements ICanJump {
   public function jump() {
     echo "Ooga ooga jump";
   }
