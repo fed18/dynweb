@@ -209,4 +209,4 @@ G/VG baseras på hur väl upplagd koden är och i vilken grad du utnyttjar progr
 * **Inlämningsformat**: `.zip` (alla andra format resulterar i försenad inlämning och komplettering)
 * **Namnformat för inlämning:** `fornamn_efternamn_crud.zip`
 * **Inlämningen sker endast via inlämningsyta på zenit**
-* **Tid för inlämning:** _måndag 29/10 23.55_
+* **Tid för inlämning:** _måndag 2/11 23.55_
