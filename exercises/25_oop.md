@@ -1,5 +1,7 @@
 # Objektorienterad Programmering
 
+* [Fler övningar om OOP](https://www.w3resource.com/php-exercises/php-class-exercises.php)
+
 ## Books
 
 1 . Skriv en klass med namnet `Book`. Den ska ha två (_publika_) egenskaper: `title` och `author`.
