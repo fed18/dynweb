@@ -46,7 +46,7 @@ Under denna meny finns en dropdown-meny där du kan välja **Export to file**. T
 * **Inlämningsformat**: `.wpress` (alla andra format resulterar i försenad inlämning och komplettering)
 * **Namnformat för inlämning:** `fornamn_efternamn_cms.wpress`
 * **Inlämningen sker endast via inlämningsyta på zenit**
-* **Tid för inlämning:** _måndag 16/11 23.55_
+* **Tid för inlämning:** fredag 16/11 23.55_
 
 
 # Detaljer
