@@ -43,7 +43,8 @@ Se upp med PHP, många av resurserna på nätet är utdaterade och många exempe
 ### CMS
 
 * [__Wordpress.org__](https://wordpress.org/)
-    - [__Wordpress Codex__](https://codex.wordpress.org/)    
+    - [__Wordpress Codex__](https://codex.wordpress.org/)
+* [__WordPress Theme Handbook__](https://developer.wordpress.org/themes/getting-started/)    
 
 ## Schema :calendar:
 
