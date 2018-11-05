@@ -67,9 +67,9 @@ Se upp med PHP, många av resurserna på nätet är utdaterade och många exempe
 | 15    | **44**    | 29/10   | `git` branching/merge fördjupning |                                                       |
 | 16    | 44        | 30/10   | `git` branching/merge fördjupning / Objektorienterad PHP                                                            |
 | 17    | 44        | 2/11    | Objektorienterad PHP, **Inlämning av examinerande mindre uppgift: _CRUD mot database_** |
-| 18    | **45**    | 5/11    | WordPress Intro                                                                 |
-| 19    | 45        | 9/11    | WordPress Child Themes                                                          |
-| 20    | **46**    | 12/11   | WordPress Custom Templates                                                      |
+| 18    | **45**    | 5/11    | WordPress Intro, Child Themes, Custom Templates                                                                |
+| 19    | 45        | 9/11    | WordPress Hooks/actions/filters, The Loop, handledning                                                        |
+| 20    | **46**    | 12/11   | WordPress fördjupning                                                    |
 | 21    | 46        | 16/11   | WordPress **Inlämning av Wordpress-uppgift**                                    |
 | 22    | **47**    | 19/11   | Projektarbete                                                                   |
 | 23    | 47        | 23/11   | Projektarbete                                                                   |
