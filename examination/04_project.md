@@ -37,7 +37,7 @@ Ert projekt ska även ha en fil som heter `CODE_STANDARD.md` som innehåller inf
     * :page_with_curl: `database_connection.php`
     * :page_with_curl: `functions.php`
   * :open_file_folder: `classes`
-    * :page_with_curl: `Product.php`
+    * :page_with_curl: `Comments.php`
     * :page_with_curl: `Posts.php`
   * :open_file_folder: `views`
     * :page_with_curl: `checkout.php`
