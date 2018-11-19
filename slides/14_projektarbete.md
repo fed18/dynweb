@@ -1,7 +1,7 @@
 autoscale: true
 build-lists: true
 
-# **Projektarbete**
+# **Projekt**
 
 ---
 
@@ -14,7 +14,7 @@ build-lists: true
       * 🗒 `Auth.php`
       * 🗒 `Posts.php`
   * 📁`includes`
-      * 🗒 `database_connection.php`
+      * 🗒 `database-connection.php`
   * 📁`views`
       * 🗒`login-page.php`
   * 🗒`index.php`
@@ -22,7 +22,7 @@ build-lists: true
 
 ---
 
-## [Exempelstruktur @ GitHub]()
+## [Exempelstruktur @ GitHub](https://github.com/fed18/project-structure-example)
 
 ---
 
