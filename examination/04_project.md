@@ -40,9 +40,8 @@ Ert projekt ska även ha en fil som heter `CODE_STANDARD.md` som innehåller inf
     * :page_with_curl: `Comments.php`
     * :page_with_curl: `Posts.php`
   * :open_file_folder: `views`
-    * :page_with_curl: `checkout.php`
-    * :page_with_curl: `confirm.php`
     * :page_with_curl: `login.php`
+    * :page_with_curl: `post.php`
   * :page_with_curl: `index.php`
   * :page_with_curl: `README.md`
   * :page_with_curl: `GUIDELINES.md` / `CODE_STANDARD.md`
