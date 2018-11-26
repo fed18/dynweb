@@ -74,3 +74,6 @@ Se upp med PHP, många av resurserna på nätet är utdaterade och många exempe
 | 22    | **47**    | 19/11   | Projektarbete                                                                   |
 | 23    | 47        | 23/11   | Projektarbete                                                                   |
 | 24    | **48**    | 26/11   | Projektarbete, **Obligatorisk demo av projektarbete**                           |
+| 25    | **48**    | 30/11   | Projektarbete, **Jesper inte på plats**                                         |
+| 26    | **49**    | 6/12    | Projektarbete                                                                   |
+| 27    | **49**    | 7/12    | Projektarbete                                                                   |
